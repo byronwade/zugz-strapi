@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "strains",
+  "info": {
+    "singularName": "strain",
+    "pluralName": "strains",
+    "displayName": "Strains"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "blocks"
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "MetaSocial": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.meta-social"
+    }
+  }
+}
